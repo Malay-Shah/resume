@@ -116,7 +116,7 @@ export const DATA = {
     }, {
       name: 'University of Toronto ',
       title: 'Research Lab Programmer',
-      range: 'Jun 2018- Aug 2018',
+      range: 'Jun 2018 - Aug 2018',
       location: 'Mississauga, Ontario',
       projects: [{
         name: 'Projects',
@@ -128,6 +128,18 @@ export const DATA = {
         achievements: [
           'Developed a Python script to display a detailed summary of work done by lab members',
           'Aggregating large data and simplifying it using python scripts',
+        ],
+      }],
+    }, {
+      name: 'West Humber Collegiate Institute',
+      title: '[Volunteer] Yearbook',
+      range: 'Aug 2015 - Jan 2016',
+      location: 'Toronto, Ontario',
+      projects: [{
+        name: 'Projects',
+        achievements: [
+          'asdasdasdasdasdasdasdasdasd',
+          'asdasdasdasdasdasdasdas',
         ],
       }],
     }
@@ -174,6 +186,6 @@ export const DATA = {
         'A compression program made using Python, that utilizes the Huffman algorithm',
         'Able to reduce size of text files by over 50%'
       ],
-    }]
+    }],
   },
 };

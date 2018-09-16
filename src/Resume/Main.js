@@ -7,7 +7,7 @@ import * as Constant from '../constant';
 
 // http://paletton.com/#uid=13C0u0k6bKi00++12WefxtSqTml
 
-const Main = ({ companies, projects }) => (
+const Main = ({ companies, projects, volunteeringExperience }) => (
   <div>
     <section className="card">
       <Heading title="Employment" />

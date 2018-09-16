@@ -91,7 +91,7 @@ export const DATA = {
   main: {
     companies: [{
       name: 'Avanade',
-      title: 'Full Stack Intern',
+      title: 'Full Stack Developer Intern',
       range: 'Summer 2018',
       location: 'Toronto, Ontario',
       projects: [{

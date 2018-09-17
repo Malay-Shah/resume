@@ -25,7 +25,7 @@ export const DATA = {
       'Enjoy playing Ping Pong and Volleyball.',
     ],
     education: {
-      programTitle: 'Specializing in Computer Science',
+      programTitle: 'BSc in Computer Science',
       university: 'University of Toronto',
       duration: 'September 2016 - Current',
     },

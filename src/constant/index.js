@@ -35,13 +35,15 @@ export const DATA = {
         items: [
           'Java',
           'C#',
-          'C',
+          'C/C++',
           'Python',
-          'Powershell',
-          'Latex',
+          'PowerShell',
+          'LaTeX',
           'HTML/CSS',
+          'Haskell',
+          'Racket',
           'JavaScript',
-          'SQL',
+          'MySQL',
         ],
       },
       frameworks: {
@@ -105,12 +107,10 @@ export const DATA = {
           'SQL'
         ],
         achievements: [
-          'Developed a web app to help Avanade IT support team reduce number of tickets',
-          // 'Developed an artboard drawer for the Semaphore view',
-          // 'Implemented a feature that allowed users to view PXC projects as a slideshow presentation',
-          // 'Built a feature to view Pixelcloud Projects as slideshow presentations in full screen (https://fburl.com/v4g4bbg1)',
+          'Developed a web app to assist Avanade IT support team reduce number of tickets',
           'Built a REST API that can be easily implemented into other applications',
-          'Updated an outdated existing Phone Number Portal to use modern technologies and increase run time by over 50%',
+          'Updated an outdated Phone Number Portal to use modern technologies and increase run time by over 50%',
+          'Created PowerShell script that uses Microsoft Graph API to update workflow on Sharepoint'
         ],
       }],
     }, {
@@ -132,14 +132,17 @@ export const DATA = {
       }],
     }, {
       name: 'West Humber Collegiate Institute',
-      title: '[Volunteer] Yearbook',
-      range: 'Aug 2015 - Jan 2016',
+      title: 'Yearbook Volunteer',
+      range: 'Sept 2015 - Mar 2016',
       location: 'Toronto, Ontario',
       projects: [{
         name: 'Projects',
+        tools: [
+          'Adobe Suite'
+        ],
         achievements: [
-          'asdasdasdasdasdasdasdasdasd',
-          'asdasdasdasdasdasdasdas',
+          'Worked in a team to produce the 2015-2016 West Humber CI yearbook used by over 500 Students',
+          'Performed well under pressure and was able to multi-task',
         ],
       }],
     }
@@ -152,7 +155,7 @@ export const DATA = {
       achievements: [
         'Developed an Android application that tracks and sorts the monthly expenses according to various categories',
         'Built an interactive and intuitive front-end interface for the app, backed by a SQL database',
-        'Implemented multiple compact methods to make the application more efficient'
+        'Implemented multiple compact methods to enhance the run time of the program'
       ],
     }, {
       name: 'Paint Program',

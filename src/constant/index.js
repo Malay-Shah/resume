@@ -70,7 +70,7 @@ export const DATA = {
     },
     links: [{
       display: 'malay.s@outlook.com',
-      link: 'mailto:malay.s@outlook.com',
+      link: 'mailto:malay.shah@mail.utoronto.ca',
       icon: 'envelope-o',
       className: 'email',
     }, {

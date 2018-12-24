@@ -102,15 +102,15 @@ export const DATA = {
           'C#',
           'HTML/CSS',
           'JavaScript',
-          'Powershell Scripting',
+          'PowerShell',
           'Python',
           'SQL'
         ],
         achievements: [
-          'Developed a web app to assist Avanade IT support team reduce number of tickets',
-          'Built a REST API that can be easily implemented into other applications',
-          'Updated an outdated Phone Number Portal to use modern technologies and increase run time by over 50%',
-          'Created PowerShell script that uses Microsoft Graph API to update workflow on Sharepoint'
+          'Developed a user interface which allows employees to monitor their Skype for Business Recording Rights ',
+          'Built a REST API that allows IT admins to create and maintain phone extension lines',
+          'Refactored the Enterprise Voice Portal Database query which greatly improved the overall applications performance',
+          'Created a PowerShell script that uses Microsoft Graph API to query and store the users mailbox permissions on SharePoint',
         ],
       }],
     }, {
@@ -127,7 +127,7 @@ export const DATA = {
         ],
         achievements: [
           'Developed a Python script to display a detailed summary of work done by lab members',
-          'Aggregating large data and simplifying it using python scripts',
+          'Aggregated large data and simplifying it using python scripts',
         ],
       }],
     }, {
@@ -142,18 +142,17 @@ export const DATA = {
         ],
         achievements: [
           'Worked in a team to produce the 2015-2016 West Humber CI yearbook used by over 500 Students',
-          'Performed well under pressure and was able to multi-task',
         ],
       }],
     }
   ],
     projects: [{
       name: 'Xpenses',
-      tools: ['Android API', 'Java', 'Sql'],
+      tools: ['Android', 'Java', 'SQL'],
       demos: [],
       github: 'https://github.com/Malay-Shah/Expense_Tracker',
       achievements: [
-        'Developed an Android application that tracks and sorts the monthly expenses according to various categories',
+        'Developed an Android application that tracks and manages monthly expenses',
         'Built an interactive and intuitive front-end interface for the app, backed by a SQL database',
         'Implemented multiple compact methods to enhance the run time of the program'
       ],
@@ -163,10 +162,10 @@ export const DATA = {
       demos: [],
       github: 'https://github.com/Malay-Shah/PaintProgram',
       achievements: [
-        'Developed a working paint Java program that used the Factory and Strategy design patterns',
-        'Used Regex to save and load a file',
+        'Developed a paint program that utilizes the Factory and Strategy design patterns',
+        'Used Regex to save and load files',
         'Collaborated with other students in a team setting using Agile and Scrum methodologies ',
-        'Implemented an UI which allows users to select shapes, colours and elements inside the canvas'
+        'Implemented a UI which allows users to select shapes, colours, and elements inside the canvas'
       ],
     },
     {
@@ -175,7 +174,7 @@ export const DATA = {
       demos: [],
       github: 'https://github.com/Malay-Shah',
       achievements: [
-        'Developed a Java application that allows a user to solve the water pouring puzzle',
+        'Developed an application that allows a user to solve the water pouring puzzle',
         'Implemented a UI using Swing that visually represents the quantity of water in each jug',
         'Thoroughly tested the app using the JUnit test framework'
       ],

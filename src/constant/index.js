@@ -33,16 +33,15 @@ export const DATA = {
       languages: {
         title: 'Languages',
         items: [
+          'Python',
+          'React',
+          'JavaScript',
+          'HTML/CSS',
+          'PostgreSQL',
           'Java',
           'C#',
-          'C/C++',
-          'Python',
           'PowerShell',
           'LaTeX',
-          'HTML/CSS',
-          'Haskell',
-          'Racket',
-          'JavaScript',
           'MySQL',
         ],
       },
@@ -58,19 +57,21 @@ export const DATA = {
       technologies: {
         title: 'Technologies',
         items: [
+          'PyCharm',
+          'WebStorm',
+          'Docker',
           'Git',
           'Visual Studio',
           'Bash',
           'Eclipse',
           'Android Studio',
           'Adobe Suite',
-          'MS Suite',
         ],
       },
     },
     links: [{
-      display: 'malay.shah@mail.utoronto.ca',
-      link: 'mailto:malay.shah@mail.utoronto.ca',
+      display: 'malay.s@outlook.com',
+      link: 'mailto:malay.s@outlook.com',
       icon: 'envelope-o',
       className: 'email',
     }, {
@@ -92,6 +93,43 @@ export const DATA = {
   },
   main: {
     companies: [{
+      name: 'Forma AI',
+      title: 'Software Developer',
+      range: 'May 2019 - Current',
+      location: 'Toronto, Ontario',
+      projects: [{
+        name: 'Project One',
+        tools: [
+          'React',
+          'Python',
+          'PostgreSQL',
+          'Node.js',
+          'Docker',
+        ],
+        achievements: [
+          'Led a team that refactored legacy code to be abstract and reusable by new clients',
+          'Developed a dashboard used by over 200 people on a daily basis',
+          'Co-authored Change Management: A system to manage new and updated entries to daily ingested files', 
+          'Restructured bulk data download script and reduced execution time by 40 minutes',
+        ]
+      }],
+    }, {
+      name:'University Of Toronto',
+      title: 'Teacher Assistant',
+      range: 'Jan 2019 - Apr 2019',
+      location: 'Mississauga, Ontario',
+      projects: [{
+        name: 'Projects',
+        tools: [
+          'Python',
+          'Data Structures',
+        ],
+        achievements: [
+          'Conducted lab support for CSC148, Introduction to Computer Science',
+          'Assisted and mentored students in groups and on individual basis',
+        ]
+      }],
+    }, {
       name: 'Avanade',
       title: 'Full Stack Developer Intern',
       range: 'Summer 2018',
@@ -109,7 +147,7 @@ export const DATA = {
         achievements: [
           'Developed a user interface which allows employees to monitor their Skype for Business Recording Rights ',
           'Built a REST API that allows IT admins to create and maintain phone extension lines',
-          'Refactored the Enterprise Voice Portal Database query which greatly improved the overall applications performance',
+          'Revamped the Enterprise Voice Portal Database query which greatly improved the overall applications performance',
           'Created a PowerShell script that uses Microsoft Graph API to query and store the users mailbox permissions on SharePoint',
         ],
       }],
@@ -130,29 +168,14 @@ export const DATA = {
           'Aggregated large data and simplifying it using python scripts',
         ],
       }],
-    }, {
-      name: 'West Humber Collegiate Institute',
-      title: 'Yearbook Volunteer',
-      range: 'Sept 2015 - Mar 2016',
-      location: 'Toronto, Ontario',
-      projects: [{
-        name: 'Projects',
-        tools: [
-          'Adobe Suite'
-        ],
-        achievements: [
-          'Worked in a team to produce the 2015-2016 West Humber CI yearbook used by over 500 Students',
-        ],
-      }],
-    }
+    },
   ],
     projects: [{
-      name: 'Xpenses',
+      name: 'Chequit',
       tools: ['Android', 'Java', 'SQL'],
       demos: [],
-      github: 'https://github.com/Malay-Shah/Expense_Tracker',
       achievements: [
-        'Developed an Android application that tracks and manages monthly expenses',
+        'Collaborated in a team of 6 people to develop an android application that tracks and manages monthly expenses',
         'Built an interactive and intuitive front-end interface for the app, backed by a SQL database',
         'Implemented multiple compact methods to enhance the run time of the program'
       ],
@@ -167,27 +190,7 @@ export const DATA = {
         'Collaborated with other students in a team setting using Agile and Scrum methodologies ',
         'Implemented a UI which allows users to select shapes, colours, and elements inside the canvas'
       ],
-    },
-    {
-      name: 'Jug Puzzle',
-      tools: ['Java', 'Agile', 'JUnit', 'Swing', 'Git'],
-      demos: [],
-      github: 'https://github.com/Malay-Shah',
-      achievements: [
-        'Developed an application that allows a user to solve the water pouring puzzle',
-        'Implemented a UI using Swing that visually represents the quantity of water in each jug',
-        'Thoroughly tested the app using the JUnit test framework'
-      ],
-    },
-    {
-      name: 'Compression Program',
-      tools: ['Python'],
-      demos: [],
-      github: 'https://github.com/Malay-Shah',
-      achievements: [
-        'A compression program made using Python, that utilizes the Huffman algorithm',
-        'Able to reduce size of text files by over 50%'
-      ],
     }],
   },
 };
+``

@@ -38,15 +38,28 @@ const Tool = ({ name }) => {
 
 const ProjectName = ({ github, name }) => {
   if (github) {
-    return (
-      <a href={github} style={style.name}>
-        <Icon name="github" style={{
-          color: '#053366',
-          paddingRight: '0.5rem',
-        }}/>
-        {name}
-      </a>
-    );
+    if (github.link){
+      return (
+        <a href={github.link} style={style.name}>
+          <Icon name={github.icon} style={{
+            color: '#053366',
+            paddingRight: '0.5rem',
+          }}/>
+          {name}
+        </a>
+      );
+    } else {
+      return (
+        <div style={style.name}>
+          <Icon name={github.icon} style={{
+              color: '#053366',
+              paddingRight: '0.5rem',
+            }}/>
+            {name}
+        </div>
+      );
+    }
+    
   }
 
   return (

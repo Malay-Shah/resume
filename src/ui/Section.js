@@ -23,7 +23,7 @@ const Section = ({
         </div>
       </div>
       <div style={{
-        padding: '0.025rem 1.2rem',
+        padding: '0.025rem 0.5rem',
       }}>
         {children}
       </div>
